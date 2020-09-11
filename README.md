@@ -13,3 +13,4 @@ predict what news articles on Hacker News (news.ycombinator.com) I will read bas
 
 from https://bgstack15.wordpress.com/2019/04/07/read-chrome-history-from-command-line/
 
+Python version: see https://github.com/umbcdata601/spring2020/blob/master/jupyter_notebooks/week_07_math/histogram%20of%20my%20Chrome%20history.ipynb
