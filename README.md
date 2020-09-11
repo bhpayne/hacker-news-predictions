@@ -23,8 +23,21 @@ Python version: see https://github.com/umbcdata601/spring2020/blob/master/jupyte
 
 ## 4. train a recommender
 
+use Content-Based Filtering; see https://www.kaggle.com/gspmoreira/recommender-systems-in-python-101
+
+There are multiple options; pros/cons not known to me currently
+ * create TF-IDF array first from features, then use cosine similarity to make prediction 
+   * https://www.kaggle.com/gspmoreira/recommender-systems-in-python-101
+   * https://heartbeat.fritz.ai/recommender-systems-with-python-part-i-content-based-filtering-5df4940bd831
+   * https://medium.com/analytics-vidhya/content-based-recommender-systems-in-python-2b330e01eb80
+   * https://medium.com/@bindhubalu/content-based-recommender-system-4db1b3de03e7
+ * https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html ?
+
 ## 5. pull current news stories
 
     python get_top_stories.py
 
 ## 6. use the recommender against new stories to produce suggestions
+
+
+## 7. post to 
