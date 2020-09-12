@@ -1,7 +1,7 @@
 # hacker-news-predictions
 predict what news articles on Hacker News (news.ycombinator.com) I will read based on browser history
 
-## 1. HackerNews Items in my browser history:
+## 1. find HackerNews Items in my browser history:
 
     $ cp ~/Library/Application\ Support/Google/Chrome/Default/History 
     $ sqlite3 History "select datetime(last_visit_time/1000000-11644473600,'unixepoch'),url from  urls order by last_visit_time asc" | wc -l
@@ -42,4 +42,10 @@ There are multiple options; pros/cons not known to me currently
 
 ## 7. post to https://pypi.org/
 
+https://packaging.python.org/
+
 ## 8. post to https://readthedocs.org
+
+https://docs.readthedocs.io/en/stable/
+
+https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html
