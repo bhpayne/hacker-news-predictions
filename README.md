@@ -40,4 +40,6 @@ There are multiple options; pros/cons not known to me currently
 ## 6. use the recommender against new stories to produce suggestions
 
 
-## 7. post to 
+## 7. post to https://pypi.org/
+
+## 8. post to https://readthedocs.org
