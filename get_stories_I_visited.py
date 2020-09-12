@@ -75,7 +75,7 @@ def list_of_words_in_url(url: str) -> list:
     path = urlparse(url).path
     # https://stackoverflow.com/a/1059596/1164295
     words_as_list = re.findall(r"[\w']+", path)
-    words_as_list = [word.lower for word in words_as_list]
+    words_as_list = [word.lower() for word in words_as_list]
     words_as_list_no_stopwords = remove_stopwords(words_as_list)
     return words_as_list_no_stopwords
     
